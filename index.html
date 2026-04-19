@@ -51,26 +51,25 @@
 
 <body>
     <div class="container mt-5 mb-5">
-        <h1 class="text-center mb-5 fancy-title">Colony House</h1>
+        <h1 class="text-center mb-5 fancy-title" id="name"></h1>
 
         <div class="row align-items-center justify-content-center mb-5">
             <div class="col-md-5 mb-4 mb-md-0">
-                <img src="https://i0.wp.com/relevantmagazine.com/wp-content/uploads/2026/03/CH-1.jpg?fit=1600%2C1066&ssl=1"
-                    class="img-fluid rounded shadow-lg" alt="Colony House" style="border-radius: 20px !important;">
+                <img class="img-fluid rounded shadow-lg" alt="Colony House" style="border-radius: 20px !important;" id="imageUrl">
             </div>
 
             <div class="col-md-5 d-flex flex-column justify-content-between" style="min-height: 250px;">
                 <div class="p-3 glass-panel text-center mb-3">
                     <span class="text-muted d-block small text-uppercase" style="letter-spacing: 1px;">Fecha de debut</span>
-                    <strong class="fs-5">2014</strong>
+                    <strong class="fs-5" id="debutYear"></strong>
                 </div>
                 <div class="p-3 glass-panel text-center mb-3">
                     <span class="text-muted d-block small text-uppercase" style="letter-spacing: 1px;">Integrantes</span>
-                    <strong class="fs-5">4</strong> <span class="text-muted small">(Caleb, Will, Scott, Parke)</span>
+                    <strong class="fs-5" id="members"></strong> <span class="text-muted small" id="membersNames"></span>
                 </div>
                 <div class="p-3 glass-panel text-center">
                     <span class="text-muted d-block small text-uppercase" style="letter-spacing: 1px;">Número de álbums</span>
-                    <strong class="fs-5">4</strong>
+                    <strong class="fs-5" id="albums"></strong>
                 </div>
             </div>
         </div>
@@ -78,8 +77,7 @@
         <div class="row justify-content-center my-5 pt-3">
             <div class="col-md-8 position-relative glass-panel px-5 py-4 text-center">
                 <span style="font-family: 'Playfair Display', serif; font-size: 4rem; color: #d0a4b4; position: absolute; top: -15px; left: 15px; opacity: 0.5;">❝</span>
-                <p class="mb-0 text-muted fst-italic" style="font-size: 1.05rem; line-height: 1.8;">
-                    Nativos de Franklin, Tennessee, Colony House ha construido su nombre con un rock & roll honesto y lleno de emociones. Fusionando la estética de los años 90 y el surf rock vintage con historias de vida profundas, esta banda de cuatro amigos lleva su energía electrizante a los escenarios, escribiendo canciones que conectan corazones y nos hacen sentir un poco menos solos en el mundo.
+                <p class="mb-0 text-muted fst-italic" style="font-size: 1.05rem; line-height: 1.8;" id="description">
                 </p>
                 <span style="font-family: 'Playfair Display', serif; font-size: 4rem; color: #d0a4b4; position: absolute; bottom: -45px; right: 15px; opacity: 0.5;">❞</span>
             </div>
@@ -100,48 +98,15 @@
                                 <th class="pe-4" style="background: transparent;">Duración</th>
                             </tr>
                         </thead>
-                        <tbody class="text-center">
-                            <tr>
-                                <td class="text-start ps-4 fw-medium" style="background: transparent;">You Know It</td>
-                                <td class="text-muted" style="background: transparent;">Only the Lonely</td>
-                                <td style="background: transparent;">~ 65 Millones</td>
-                                <td style="background: transparent;">2017</td>
-                                <td class="pe-4" style="background: transparent;">2:59</td>
-                            </tr>
-                            <tr>
-                                <td class="text-start ps-4 fw-medium" style="background: transparent;">Silhouettes</td>
-                                <td class="text-muted" style="background: transparent;">When I Was Younger</td>
-                                <td style="background: transparent;">~ 45 Millones</td>
-                                <td style="background: transparent;">2014</td>
-                                <td class="pe-4" style="background: transparent;">3:28</td>
-                            </tr>
-                            <tr>
-                                <td class="text-start ps-4 fw-medium" style="background: transparent;">Waiting for My Time to Come</td>
-                                <td class="text-muted" style="background: transparent;">When I Was Younger</td>
-                                <td style="background: transparent;">~ 15 Millones</td>
-                                <td style="background: transparent;">2014</td>
-                                <td class="pe-4" style="background: transparent;">3:10</td>
-                            </tr>
-                            <tr>
-                                <td class="text-start ps-4 fw-medium" style="background: transparent;">Cannonballers</td>
-                                <td class="text-muted" style="background: transparent;">The Cannonballers</td>
-                                <td style="background: transparent;">~ 10 Millones</td>
-                                <td style="background: transparent;">2023</td>
-                                <td class="pe-4" style="background: transparent;">3:00</td>
-                            </tr>
-                            <tr>
-                                <td class="text-start ps-4 fw-medium" style="background: transparent;">Original Material</td>
-                                <td class="text-muted" style="background: transparent;">Leave What's Lost Behind</td>
-                                <td style="background: transparent;">~ 9 Millones</td>
-                                <td style="background: transparent;">2020</td>
-                                <td class="pe-4" style="background: transparent;">2:42</td>
-                            </tr>
+                        <tbody class="text-center" id="topSongs">
+                          
                         </tbody>
                     </table>
                 </div>
             </div>
         </div>
     </div>
+    <script type="module" src="./scripts/main.js"></script>
 </body>
 
 </html>

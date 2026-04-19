@@ -1,0 +1,17 @@
+{
+  "name": "Colony Houseee",
+  "debutYear": 2014,
+  "formationYear": 2009,
+  "members": 4,
+  "membersNames": "Caleb, Will, Scott, Parke",
+  "albums": 4,
+  "description": "Nativos de Franklin, Tennessee, Colony House ha construido su nombre con un rock & roll honesto y lleno de emociones. Fusionando la estética de los años 90 y el surf rock vintage con historias de vida profundas, esta banda de cuatro amigos lleva su energía electrizante a los escenarios, escribiendo canciones que conectan corazones y nos hacen sentir un poco menos solos en el mundo.",
+  "imageUrl": "https://i0.wp.com/relevantmagazine.com/wp-content/uploads/2026/03/CH-1.jpg?fit=1600%2C1066&ssl=1",
+  "topSongs": [
+    { "name": "You Know It", "album": "Only the Lonely", "plays": "~ 65 Millones", "year": 2017, "duration": "2:59" },
+    { "name": "Silhouettes", "album": "When I Was Younger", "plays": "~ 45 Millones", "year": 2014, "duration": "3:28" },
+    { "name": "Waiting for My Time to Come", "album": "When I Was Younger", "plays": "~ 15 Millones", "year": 2014, "duration": "3:10" },
+    { "name": "Cannonballers", "album": "The Cannonballers", "plays": "~ 10 Millones", "year": 2023, "duration": "3:00" },
+    { "name": "Original Material", "album": "Leave What's Lost Behind", "plays": "~ 9 Millones", "year": 2020, "duration": "2:42" }
+  ]
+}
